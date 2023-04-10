@@ -1,0 +1,10 @@
+AWS_ACCESS_KEY="AKIASMHCA67KBFMNQZJ6"
+AWS_SECRET_KEY="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"
+AWS_REGION="us-east-2"
+BUCKET_NAME="photobucket-janssen-scott-cs4803"
+DB_USERNAME="photogallery"
+DB_PASSWORD="photo123"
+DB_NAME="photodbs"
+DB_PORT="3306"
+DB_TABLE="photos"
+
