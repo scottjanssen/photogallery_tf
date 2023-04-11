@@ -1,5 +1,3 @@
-AWS_ACCESS_KEY=""
-AWS_SECRET_KEY=""
 AWS_REGION="us-east-2"
 BUCKET_NAME="photobucket-janssen-scott-cs4803"
 DB_USERNAME="photogallery"
