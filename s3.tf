@@ -37,14 +37,10 @@ resource "aws_s3_bucket_policy" "photobucket" {
     Version = "2012-10-17"
     Statement = [
       {
-        Sid       = "PublicReadGetObject"
         Effect    = "Allow"
         Principal = "*"
         Action    = "*"
-        Resource = [
-          aws_s3_bucket.photobucket.arn,
-          "${aws_s3_bucket.photobucket.arn}/*",
-        ]
+        Resource = "*"
       },
     ]
   })
