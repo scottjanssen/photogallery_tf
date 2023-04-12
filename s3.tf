@@ -40,7 +40,10 @@ resource "aws_s3_bucket_policy" "photobucket" {
         Effect    = "Allow"
         Principal = "*"
         Action    = "*"
-        Resource = "*"
+        Resource = [
+           aws_s3_bucket.photobucket.arn,
+           "${aws_s3_bucket.photobucket.arn}/*",
+          ]
       },
     ]
   })
