@@ -40,7 +40,7 @@ resource "aws_s3_bucket_policy" "photobucket" {
         Sid       = "PublicReadGetObject"
         Effect    = "Allow"
         Principal = "*"
-        Action    = "s3:GetObject"
+        Action    = "*"
         Resource = [
           aws_s3_bucket.photobucket.arn,
           "${aws_s3_bucket.photobucket.arn}/*",
