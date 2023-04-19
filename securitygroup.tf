@@ -13,6 +13,7 @@ resource "aws_security_group" "photogallery" {
     to_port     = 22
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
+    description = "Allows traffic from port 22"
   }
   
   ingress {
