@@ -44,5 +44,5 @@ variable "AMIS" {
 }
 
 variable "GITHUB" {
-  link = "http://github.com/scottjanssen/photogallery_tf/edit/main/vars.tf"
+  default = "http://github.com/scottjanssen/photogallery_tf/edit/main/vars.tf"
 }
