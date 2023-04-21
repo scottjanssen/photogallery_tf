@@ -42,3 +42,7 @@ variable "AMIS" {
     us-east-2 = "ami-00eeedc4036573771"
   }
 }
+
+variable "GITHUB" {
+  link = "http://github.com/scottjanssen/photogallery_tf/edit/main/vars.tf"
+}
