@@ -17,7 +17,7 @@ variable "DB_USERNAME" {
 }
 
 variable "DB_PASSWORD" {
-
+  default = "defaultPAss"
 }
 
 variable "DB_PORT" {
