@@ -5,7 +5,7 @@ resource "aws_db_instance" "photogallery" {
   instance_class       = "db.t3.micro"
   db_name              = var.DB_NAME
   username             = var.DB_USERNAME
-  password             = var.DB_PASSWORD
+  password             = "hardCodeDPaSSworD"
   parameter_group_name = "default.mysql5.7"
   skip_final_snapshot  = true
   vpc_security_group_ids  = [aws_security_group.allow-mysql.id]
